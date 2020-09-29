@@ -1,0 +1,184 @@
+body {
+      background-image: url(./images/topography.svg), linear-gradient(110deg, #f93d66, #6d47d9);
+      font-family: impact, serif, bold;
+}
+.a {
+font-size: 20px;
+font-family: impact, serif;
+background: #ffc600;
+text-align: center;
+border: 1px solid #ffc600;
+height: 40px;
+}
+@media only screen and (max-width: 620px) {
+ .nav {
+  display: grid;
+  grid-row-gap: 10px;
+  margin: 10px 0px;
+    }
+.tacos {
+  display: grid;
+  grid-row-gap: 10px;
+}
+.tacodiv {   
+    background: white;
+    min-height: 300px;
+  }
+.tacodiv img {
+  width: 300px;
+  height: 200px;
+}
+  .tacoh {
+  font-size: 25px;
+  background: #ffc600;
+  border: #ffc600; 
+ }
+.tacop {
+  font-size: 20px;
+  background: #ffc600;
+  border: #ffc600;
+}
+.tacodivv {
+  font-size: 25px;
+  background: #ffc600;
+}
+.tacodivv h3 {
+  font-size: 35px;
+}
+.icons {
+  display: grid;
+  grid-row-gap: 10px;
+}
+.icon {
+  font-size: 25px;
+  background: white;
+  height: 280px;
+  margin: 10px 0px;
+}
+.button {
+  display: grid;
+  background: white;
+  font-size: 25px;
+}
+.button img {
+ height: 300px;
+ width: 350px;
+}
+.button button {
+  background:  #ffc600;
+  align-content: center;
+  width: 200px;
+  height: 40px;
+  font-size: 25px;
+}
+.h2 {
+  display: grid;
+  font-size: 25px;
+  justify-content: center;
+}
+.photos {
+  display: grid;
+  grid-row-gap: 10px;
+  font-size: 25px;
+}
+.photos img {
+  width: 100%;
+  height: auto;
+}
+}
+
+@media only screen and (min-width: 768px ) {
+.nav{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 15px;
+  padding: 20px;
+  }
+  .tacos {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+} 
+.tacodiv {   
+    display: grid;
+    background: white url(images/taco.jpg);
+    background-size: cover;
+    min-height: 350px;
+    max-width: 900px;
+    padding: 10px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: start;
+    align-content: center;
+    }
+    .tacodiv img {
+   height: 350px;
+   width: 900px;
+}
+.tacoh {
+  font-size: 30px;
+  background: #ffc600;
+  border: #ffc600; 
+  height: 40px;
+ }
+.tacop {
+  font-size: 20px;
+  background: #ffc600;
+  border: #ffc600;
+  height: 30px;
+}
+.tacodivv {
+  display: grid;
+  font-size: 25px;
+  background: #ffc600; 
+  justify-content: center;
+  max-height: 265px;
+  width: 400px;
+}
+.tacodivv h3 {
+  font-size: 35px;
+}
+.icons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+}
+.icon {
+  background: white;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.button{
+  display: grid;
+  background: white;
+  height:450px;
+  grid-template-columns: auto auto;
+  font-size: 25px;
+}
+.button img {
+  height: 400px;
+  grid-column: 1/ 2;
+  grid-row: 1/ span 8;
+
+}
+.button button {
+  background: #ffc600; 
+  width: 200px;
+}
+.photos {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+}
+.photos img {
+  width: 100%;
+  height: auto;
+}
+.h2 {
+  display: grid;
+  font-size: 25px;
+  justify-content: center;
+}
+}
